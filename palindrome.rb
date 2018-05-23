@@ -10,8 +10,10 @@ class Palindrome
     arr = []
     puts 'please enter a word'
     word = gets.strip
-    arr << word.split("").reverse().join("").strip
-   check(arr, word)
+    arr << word.split("").reverse().join("")
+    puts word
+    puts arr
+    check(arr, word)
   end
 
   def check(arr, word)
