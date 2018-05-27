@@ -19,7 +19,9 @@ class Palindrome
   def check(arr, word)
     arr = arr
     word = word
+    binding.pry
     if word == arr
+      binding.pry
       puts "This word is a palindrome"
     else arr != word
       puts "This word is not a palindrome"
